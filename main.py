@@ -24,5 +24,10 @@ git_message()
     - commit -m "<message/commit details>": commit staged files with a message
     - log: show commit history
     - log --oneline: show "concise" commit history
-    
+    - **checkout <commit id>: show file at commit stage. changes won't be saved
+    - revert <commit id>: show and undo changes at commit. a text editor window to edit
+            commit message is given. to exit use>> :wq >>press 'enter' 
+    - reset <commit id>: delete all commits after specified commit but changes in files
+            are not reset
+    - reset <commit id> --hard: delete all commits after plus file changes 
 """
