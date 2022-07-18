@@ -7,5 +7,8 @@ class Learning_mate:
     
     def age_gap(self):
         gap = abs(self.age - self.mate_age)
+        return gap
 
+    def message(self):
+        print(f"{self.name} and {self.mate_name} are learning mates")
 mate1 = Learning_mate('Sam', 20, 'Toby', 20)
