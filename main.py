@@ -20,6 +20,9 @@ git_message()
     - status: check whether files are untracked, staged or commited
     - add: stage files
     - add . : stage all files in a repo
+    - rm --cached <filename>: unstage file
     - commit -m "<message/commit details>": commit staged files with a message
+    - log: show commit history
+    - log --oneline: show "concise" commit history
     
 """
