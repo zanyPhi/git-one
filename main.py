@@ -30,4 +30,12 @@ git_message()
     - reset <commit id>: delete all commits after specified commit but changes in files
             are not reset
     - reset <commit id> --hard: delete all commits after plus file changes 
+     - branch <branchname>: create a branch
+    - branch -a: list all branches
+    - checkout <branchname>: switch to <branchname>
+    - branch -d <branchname>: delete merged branch
+    - branch -D <branchname>: delete unmerged branch
+    - checkout -b <branchname>: create and switch to branch
+    - merge <branchname>: you must be on master branch to merge
+
 """
