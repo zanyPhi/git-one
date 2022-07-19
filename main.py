@@ -14,6 +14,8 @@ git_message()
 
 - git:
     - --version: check git version if installed
+    - config --global init.defaultBranch main: set default branch to main
+    - branch -m <branchname>: rename master branch
     - config --global user.name <username>: add username
     - config --global user.email <email>: add user email
     - init: create new repository
@@ -37,5 +39,7 @@ git_message()
     - branch -D <branchname>: delete unmerged branch
     - checkout -b <branchname>: create and switch to branch
     - merge <branchname>: you must be on master branch to merge
-
+    - push <remote repo path> <branchname>: to push to remote repo o github
+    - remote add <alias> <remote repo path>: create alias for remote repo path
+    - push <alias> <banchname>: push to remote
 """
